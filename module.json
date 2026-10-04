@@ -1,0 +1,58 @@
+{
+  "id": "daggerheart-voidborne-ru",
+  "title": "Daggerheart: Voidborne — Русский перевод",
+  "description": "<p>Неофициальный русский перевод модуля <strong>Daggerheart: Voidborne</strong> (классы, подклассы, карты домена Крови, противники и окружения, макросы). Работает через Babele.</p>",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Easytocraft",
+      "url": "https://github.com/Easytocraft"
+    }
+  ],
+  "url": "https://github.com/Easytocraft/Daggerheart-Voidborne-ru",
+  "manifest": "https://github.com/Easytocraft/Daggerheart-Voidborne-ru/releases/latest/download/module.json",
+  "download": "https://github.com/Easytocraft/Daggerheart-Voidborne-ru/releases/latest/download/daggerheart-voidborne-ru.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    }
+  ],
+  "esmodules": [
+    "scripts/ru.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.7.1"
+        }
+      },
+      {
+        "id": "daggerheart-voidborne",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.12.0"
+        }
+      }
+    ]
+  },
+  "flags": {
+    "hasPacks": false
+  },
+  "bugs": "https://github.com/Easytocraft/Daggerheart-Voidborne-ru/issues"
+}
